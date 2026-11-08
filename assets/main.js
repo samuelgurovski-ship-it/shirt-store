@@ -2,7 +2,7 @@
    Site config — edit these once and they update every page.
    ========================================================================== */
 const SITE = {
-  name: "Fieldwork Shirt Co.",
+  name: "Trendity Shirt Co.",
   email: "hello@example.com",          // TODO: your support email
   currency: "USD",
   freeShippingOver: 75,

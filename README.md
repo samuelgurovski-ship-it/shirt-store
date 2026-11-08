@@ -1,4 +1,4 @@
-# Fieldwork Shirt Co. — storefront starter
+# Trendity Shirt Co. — storefront starter
 
 A static shirt shop: no build step. Open `index.html` in a browser, or deploy the folder as-is to Vercel, Netlify or GitHub Pages.
 
@@ -17,7 +17,7 @@ A static shirt shop: no build step. Open `index.html` in a browser, or deploy th
 | Accessibility statement | `legal/accessibility.html` |
 
 ## Before you launch: checklist
-1. **Brand name.** "Fieldwork Shirt Co." is a placeholder. Search-and-replace it across every file, and check the name isn't trademarked (USPTO TESS search).
+1. **Brand name.** The brand is "Trendity Shirt Co." Check the name isn't trademarked (USPTO TESS search).
 2. **Fill the yellow highlights.** Every `<mark class="fill">[...]</mark>` in the legal pages and contact page needs your real business name, address, governing-law state, and providers.
 3. **Remove the "Before you launch" box** at the top of each legal page once a lawyer has reviewed them. These are solid templates, but not legal advice.
 4. **Email.** Change `hello@example.com` in `assets/main.js` (`SITE.email`), `contact.html`, and the legal pages.
