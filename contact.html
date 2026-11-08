@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Fieldwork Shirt Co.</title>
+  <meta name="description" content="Questions about an order, sizing or returns? Get in touch.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="contact" data-root="">
+<main id="main">
+  <div class="page-head"><div class="wrap">
+    <h1 class="display" style="font-size:clamp(2.2rem,5vw,3.6rem)">Contact us</h1>
+    <p>We reply within 1–2 business days.</p>
+  </div></div>
+  <div class="wrap contact-grid">
+    <form id="contact-form" novalidate>
+      <div class="field">
+        <label for="c-name">Name</label>
+        <input id="c-name" name="name" autocomplete="name" required aria-describedby="c-name-error">
+        <span class="error" id="c-name-error" aria-live="polite"></span>
+      </div>
+      <div class="field">
+        <label for="c-email">Email</label>
+        <input id="c-email" name="email" type="email" autocomplete="email" required aria-describedby="c-email-error">
+        <span class="error" id="c-email-error" aria-live="polite"></span>
+      </div>
+      <div class="field">
+        <label for="c-order">Order number <span class="hint">(optional)</span></label>
+        <input id="c-order" name="order" placeholder="e.g. FW-10234">
+      </div>
+      <div class="field">
+        <label for="c-topic">Topic</label>
+        <select id="c-topic" name="topic">
+          <option>Order or delivery</option>
+          <option>Return or exchange</option>
+          <option>Sizing</option>
+          <option>Privacy request</option>
+          <option>Something else</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="c-msg">Message</label>
+        <textarea id="c-msg" name="message" required aria-describedby="c-msg-error"></textarea>
+        <span class="error" id="c-msg-error" aria-live="polite"></span>
+      </div>
+      <p class="hint" style="color:var(--muted);font-size:.9rem">We use your details only to answer this message. See our <a href="legal/privacy.html">Privacy policy</a>.</p>
+      <button class="btn" type="submit">Send message</button>
+      <p id="contact-status" role="status" style="font-weight:600;margin-top:14px"></p>
+    </form>
+    <div class="prose">
+      <h2>Other ways to reach us</h2>
+      <p><strong>Email:</strong> <a href="mailto:hello@example.com">hello@example.com</a></p>
+      <p><strong>Mail:</strong><br><mark class="fill">[Business legal name]</mark><br><mark class="fill">[Street address]</mark><br><mark class="fill">[City, State ZIP, Country]</mark></p>
+      <h3>Before you write</h3>
+      <ul>
+        <li><a href="legal/shipping.html">Where's my order?</a></li>
+        <li><a href="legal/returns.html">How do I return something?</a></li>
+        <li><a href="size-guide.html">Which size should I get?</a></li>
+      </ul>
+    </div>
+  </div>
+</main>
+<script src="assets/main.js"></script>
+</body>
+</html>

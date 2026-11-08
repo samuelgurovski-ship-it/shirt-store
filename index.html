@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The White Tee — Fieldwork Shirt Co.</title>
+  <meta name="description" content="A heavyweight white t-shirt that stays white and holds its shape. Buy one or save with a 3, 5 or 10-pack. 30-day returns.">
+  <meta property="og:title" content="The White Tee — Fieldwork Shirt Co.">
+  <meta property="og:description" content="A heavyweight white t-shirt that stays white and holds its shape.">
+  <meta property="og:type" content="product">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="home" data-root="">
+<main id="main">
+
+  <div class="wrap pdp">
+    <div class="gallery">
+      <div class="stage" id="gallery-stage" role="img" aria-label="The White Tee"></div>
+      <div class="thumbs" id="gallery-thumbs"></div>
+    </div>
+
+    <form class="buy" id="buy">
+      <h1>The White Tee</h1>
+      <p class="lede">Heavyweight cotton that stays white, keeps its collar flat, and doesn't go see-through. The one shirt you'll reach for most.</p>
+
+      <fieldset>
+        <legend>Size <a href="size-guide.html">Size guide</a></legend>
+        <div class="sizes">
+          <label><input type="radio" name="size" value="XS"><span>XS</span></label>
+          <label><input type="radio" name="size" value="S"><span>S</span></label>
+          <label><input type="radio" name="size" value="M" checked><span>M</span></label>
+          <label><input type="radio" name="size" value="L"><span>L</span></label>
+          <label><input type="radio" name="size" value="XL"><span>XL</span></label>
+          <label><input type="radio" name="size" value="XXL"><span>XXL</span></label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>How many</legend>
+        <div class="packs" id="packs"></div>
+      </fieldset>
+
+      <button class="btn buy-btn" id="buy-btn" type="submit">Add to cart</button>
+      <div class="assurances">
+        <span>30-day returns</span>
+        <span>Ships in 1–2 business days</span>
+        <span>Secure checkout</span>
+      </div>
+
+      <div class="specs">
+        <details open>
+          <summary>Fabric</summary>
+          <p>100% combed ring-spun cotton jersey at 220 gsm. Dense enough that it isn't see-through, soft enough to wear all day. Pre-shrunk.</p>
+        </details>
+        <details>
+          <summary>Fit and size</summary>
+          <p>Relaxed, straight fit with a slightly dropped shoulder. Size M is 21" across the chest and 28.5" long. Between sizes? Size down for a closer fit. <a href="size-guide.html">See all measurements</a>.</p>
+        </details>
+        <details>
+          <summary>Care</summary>
+          <p>Wash cold with whites, inside out. Hang dry or tumble dry low. Skip chlorine bleach; it yellows cotton over time.</p>
+        </details>
+        <details>
+          <summary>Shipping and returns</summary>
+          <p>Free US shipping over $75, so every 3-pack and up ships free. Not right? Return it unworn within 30 days. <a href="legal/returns.html">Read the returns policy</a>.</p>
+        </details>
+      </div>
+    </form>
+  </div>
+
+  <section class="section" style="background:var(--paper);border-block:1px solid var(--line)">
+    <div class="wrap mission">
+      <div>
+        <p class="big">220</p>
+        <p style="color:var(--muted);margin:0">grams of cotton per square metre. Many basic tees are 140–160.</p>
+      </div>
+      <div>
+        <h2>Why a heavier white tee</h2>
+        <p>Thin white shirts go sheer, twist at the side seams, and stretch out at the collar within a season. Ours use denser jersey, a taped neck seam, and side seams that are cut straight, so the shirt hangs the same after its fiftieth wash as its first.</p>
+        <p>Buy them in packs and you'll always have a clean one in the drawer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>More white shirts</h2>
+        <a href="shop.html">See all shirts</a>
+      </div>
+      <div class="grid" data-products data-limit="4"></div>
+    </div>
+  </section>
+
+  <section class="section band">
+    <div class="wrap">
+      <h2>Hear about restocks first</h2>
+      <p>One email when sizes come back in stock. Nothing else.</p>
+      <form class="signup" data-signup novalidate>
+        <label for="signup-email">Email address</label>
+        <input id="signup-email" name="email" type="email" autocomplete="email" placeholder="name@example.com">
+        <button class="btn" type="submit">Sign up</button>
+        <p class="form-status" role="status"></p>
+      </form>
+      <p class="fine">Unsubscribe any time. See our <a href="legal/privacy.html">Privacy policy</a>.</p>
+    </div>
+  </section>
+
+</main>
+<script src="assets/main.js"></script>
+</body>
+</html>
